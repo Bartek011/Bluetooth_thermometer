@@ -49,7 +49,7 @@ Communication is being handle by this code:
 //Initialize bluetooh adapter
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         //Set default Bluetooth adress
-        String deviceAddress = "43:43:A2:12:1F:AC"; // adres 
+        String deviceAddress = "43:43:A2:12:1F:AC";
         mDevice = mBluetoothAdapter.getRemoteDevice(deviceAddress);
         //Create thread to receive data 
         mThread = new Thread(new Runnable() {
